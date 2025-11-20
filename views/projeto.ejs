@@ -3,25 +3,25 @@
 
 <head>
     <%- include('head') %>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="/css/styleH.css">
-    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Gustavo Almeida - Portfólio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/styleH.css">
+        <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <title>Gustavo Almeida - Portfólio</title>
 </head>
 
 <body>
 
     <div>
-        <%- include('partials/header') %>
+        <%- include('partials/header') %> 
             <section id="habilidades" class="skills">
                 <h1 class="titles">Habilidades</h1>
                 <div class="Box">
                     <h1 class="subtitles">Programação</h1>
-                    <% programacao.forEach(h=> { %>
+                    <% programacao.forEach(h=> { %> 
                         <div class="badge">
                             <img src="<%= h.icone %>" alt="<%= h.nome %>" class="icon">
                             <span>
@@ -48,14 +48,17 @@
             <div class="pj1">
                 <div class="Box Proj">
                     <h2 class="subtitles">API - Página de Vereadores</h2>
+                    <p class="text">Minha função: Time de Desenvolviimento</p>
                     <p class="text">Projeto feito durante periodo eleitoral com o intuito de melhorar a visão geral dos
-                        vereadores da cidade de São José dos Campos. O usuário pode utilizar diversos filtros para poder comparar os canditados a vereador, e encontra informações de forma mais clara.</p>
+                        vereadores da cidade de São José dos Campos. O usuário pode utilizar diversos filtros para poder
+                        comparar os canditados a vereador, e encontra informações de forma mais clara.</p>
                     <a href="https://github.com/nicolygz/the-devs-department" target="_blank" class="links email-btn"><i
-                        class="fa-solid fa-likn"></i> Link do Repositório</a>
+                            class="fa-solid fa-likn"></i> Link do Repositório</a>
                 </div>
 
                 <div class="Box Proj">
                     <h2 class="subtitles">API - Helpnei</h2>
+                    <p class="text">Minha função: Product Owner</p>
                     <p class="text">O Projeto realizado em parceria com a Helpnei. O objeto dado foi desenvolver uma
                         unica página com dashboards contendo informações de diferente empresas patrocinadoras, e também,
                         realizar cadastro de usuários para que ele possa escolher qual empresa ele deseja ser
@@ -67,8 +70,14 @@
 
                 <div class="Box Proj">
                     <h2 class="subtitles">API - GSW TaskManager</h2>
-                    <p class="text">Projeto realizado em parceria com a empresa GSW, que nos deu o objetivo de desenvolver uma aplicação web capaz de realizar o gerenciamento de tarefas de uma equipe. Ao usuário criar uma equipe, ele vira administrador da equipe, e tem o acesso liberado ao log de tarefas, onde poderá ver todos os registros de ações das tarefas, e também tem o acesso a todas as tarefas daquela equipe.</p>
-                    <a href="https://github.com/the-devs-department/GSW-2025.2-3Sem" target="_blank" class="links email-btn"><i class="fa-solid fa-likn"></i> Link do Repositório</a>
+                    <p class="text">Minha função: Time de Desenvolvimento</p>
+                    <p class="text">Projeto realizado em parceria com a empresa GSW, que nos deu o objetivo de
+                        desenvolver uma aplicação web capaz de realizar o gerenciamento de tarefas de uma equipe. Ao
+                        usuário criar uma equipe, ele vira administrador da equipe, e tem o acesso liberado ao log de
+                        tarefas, onde poderá ver todos os registros de ações das tarefas, e também tem o acesso a todas
+                        as tarefas daquela equipe.</p>
+                    <a href="https://github.com/the-devs-department/GSW-2025.2-3Sem" target="_blank"
+                        class="links email-btn"><i class="fa-solid fa-likn"></i> Link do Repositório</a>
                 </div>
             </div>
         </section>
@@ -78,12 +87,12 @@
         <section class="projects">
             <h1 class="titles">Projetos - Outros</h1>
             <div class="Box Proj">
-                    <h2 class="subtitles">TCC - Jogo "History of a Nation"</h2>
-                    <img src="/images/HoN.png" alt="" class="imgp">
-                    <p class="text">Jogo feito como projeto de TCC do curso Técnico de Informática pelo joseense. O jogo
-                        conta a história de um robô que tem a missão de recuperar alguns artefatos históricos após o
-                        incêndio do Museu Nacional de História do Rio De Janeiro.</p>
-          </div>
+                <h2 class="subtitles">TCC - Jogo "History of a Nation"</h2>
+                <img src="/images/HoN.png" alt="" class="imgp">
+                <p class="text">Jogo feito como projeto de TCC do curso Técnico de Informática pelo joseense. O jogo
+                    conta a história de um robô que tem a missão de recuperar alguns artefatos históricos após o
+                    incêndio do Museu Nacional de História do Rio De Janeiro.</p>
+            </div>
         </section>
     </div>
 
@@ -114,7 +123,7 @@
                     <div class="TitleC">
                         <div class="badgeC">
                             <img src="/images/python.png" alt="" class="iconC">
-                            <span>Curso de Python - Em andamento</span>
+                            <span>Curso de Python - Concluído</span>
                         </div>
                         <p class="text">Aprendizado do Curso:</p>
                         <p class="text">Python Básico | Python Avançado | Programação orientada a objetos | Interfaces
@@ -144,11 +153,12 @@
                 <div class="Box Course">
                     <div class="TitleC">
                         <div class="badgeC">
-                            <img src="" alt="" class="iconC">
-                            <span>Desenvolvimento Full Stack - Em andamento</span>
+                            <img src="/images/programacao.png" alt="" class="iconC">
+                            <span>Dev. Web Full Stack - Em andamento</span>
                         </div>
                         <p class="text">Aprendizado do Curso:</p>
-                        <p class="text">HTML | CSS | Bootstrap | JavaScript(Básico a Avançado) | Node.js & Express.js| Database | React.js | Desenvolvendo seu próprio API |E muito mais!</p>
+                        <p class="text">HTML | CSS | Bootstrap | JavaScript(Básico a Avançado) | Node.js & Express.js|
+                            Database | React.js | Desenvolvendo seu próprio API |E muito mais!</p>
                         <a href="https://alunos.crieseusjogos.com.br/pt-br/club/csj-digital/products/1553177?access_source=hub_home_product_card"
                             target="_blank" class="links email-btn"><i class="fa-solid fa-link"></i> Link do Curso</a>
                     </div>

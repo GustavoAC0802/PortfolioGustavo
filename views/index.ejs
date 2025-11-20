@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <%- include('head') %>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/header.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styleIndex.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira&display=swap"
+      rel="stylesheet"
+    />
     <title>Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="all">
-        <section class="AboutMe">
-            <div class="Box">
-                <img src="/images/Eu.jpg" alt="" class="myimg">
-                <h1 class="titles">Bem-Vindo(a)!</h1>
-                <div class="info-texto">
-                    <p class="text">Olá! Me chamo <%= nome %>, atualmente estou cursando Desenvolvimento
-                        de
-                        Software
-                        Multiplataforma pela <%= faculdade %>, e Jogos Digitais pela <%= facul %>.
-                        Estou sempre buscando aprender mais sobre o universo da programação! Uma das
-                        linguagens que mais gosto é <%= lang %> </p>
-                    <p class="text">Aqui no meu portfólio, você poderá conhecer um pouco mais sobre mim, conhecendo
-                        minhas habilidades, projetos e muito mais! E caso queira entrar em contato comigo, no final
-                        deixei disponiveis algumas formas de contato. Obrigado!</p>
-                </div>
+      <div class="Circle circle1"></div> 
+      <div class="Circle circle2"></div>
+      <section class="AboutMe">
+        <div class="Box">
+          <h1 class="titles">Bem-Vindo(a)! Eu sou</h1>
+          <div class="info-texto">
+            <h2>Gustavo Almeida Camargo</h2>
+            <p class="Subtitle">Desenvolvedor Full-Stack Júnior</p>
+            <p class="text">
+              Cursando Desenvolvimento de Software Multiplataforma pela FATEC<br />
+              Jogos Digitais pela Anhanguera. Sempre buscando aprender mais
+              sobre o universo da programação!
+            </p>
+            <p class="text">
+              Aqui no meu portfólio, você poderá conhecer um pouco mais sobre
+              mim, conhecendo minhas habilidades, projetos e muito mais!
+            </p>
+          </div>
 
-                <div class="btn-container">
-                    <a class="btn" href="/docs/CV-Gustavo.pdf" download>Baixar Currículo</a>
-                    <a href="/projeto" class="btn">Prosseguir</a>
-                </div>
-
-            </div>
-        </section>
+          <div class="btn-container">
+            <a class="btn on" href="/docs/CurriculoGustavo.pdf" download
+              >Baixar Currículo</a
+            >
+            <a href="/projeto" class="btn off">Prosseguir</a>
+          </div>
+        </div>
+        <div class="img-container">
+            <img src="/images/Eu.jpg" alt="" class="myimg" />
+        </div>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>
