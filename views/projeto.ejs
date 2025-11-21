@@ -19,6 +19,11 @@
   </head>
 
   <body>
+    <div class="circle1 circle-purple"></div>
+    <div class="circle2 circle-purple"></div>
+    <div class="circle3 circle-purple"></div>
+    <div class="circle4 circle-grey"></div>
+    <div class="circle5 circle-grey"></div>
     <div>
       <%- include('partials/header') %>
       <section id="habilidades" class="skills">
@@ -70,7 +75,7 @@
               <a
                 href="https://github.com/nicolygz/the-devs-department"
                 target="_blank"
-                class="links email-btn"
+                class="btn"
                 ><i class="fa-solid fa-link"></i> Link do Repositório</a
               >
             </div>
@@ -89,7 +94,7 @@
               <a
                 href="https://github.com/the-devs-department/helpnei"
                 target="_blank"
-                class="links email-btn"
+                class="btn"
                 ><i class="fa-solid fa-link"></i> Link do Repositório</a
               >
             </div>
@@ -110,7 +115,7 @@
               <a
                 href="https://github.com/the-devs-department/GSW-2025.2-3Sem"
                 target="_blank"
-                class="links email-btn"
+                class="btn"
                 ><i class="fa-solid fa-link"></i> Link do Repositório</a
               >
             </div>
@@ -127,9 +132,9 @@
             <h2 class="subtitles">TCC - Jogo "History of a Nation"</h2>
             <img src="/images/HoN.png" alt="" class="imgp" />
             <p class="text">
-              Jogo feito como projeto de TCC do curso Técnico de Informática pelo
-              joseense. O jogo conta a história de um robô que tem a missão de
-              recuperar alguns artefatos históricos após o incêndio do Museu
+              Jogo feito como projeto de TCC do curso Técnico de Informática
+              pelo joseense. O jogo conta a história de um robô que tem a missão
+              de recuperar alguns artefatos históricos após o incêndio do Museu
               Nacional de História do Rio De Janeiro.
             </p>
           </div>
@@ -143,91 +148,89 @@
       <section class="cursos" id="cursos">
         <h1 class="titles">Cursos</h1>
         <div class="cursos-container">
-          
           <div class="border-course">
             <div class="Box Course">
-                <div class="badgeC">
-                  <img src="/images/unity.png" alt="" class="iconC" />
-                  <span>Desenvolvimento de Jogos - Em andamento</span>
-                </div>
-                <p class="text">Aprendizado do Curso:</p>
-                <p class="text">
-                  Programação para jogos | Criação de movimentos em personagens
-                  | Programação e animações para diferentes ações | Criação de
-                  áudios para jogos | Exportação e publicação | E muito mais!
-                </p>
-                <a
-                  href="https://alunos.crieseusjogos.com.br/pt-br/club/csj-digital/products/1553177?access_source=hub_home_product_card"
-                  target="_blank"
-                  class="links email-btn"
-                  ><i class="fa-solid fa-link"></i> Link do Curso</a
-                >
+              <div class="badgeC">
+                <img src="/images/unity.png" alt="" class="iconC" />
+                <span>Desenvolvimento de Jogos - Em andamento</span>
               </div>
-          </div>
-
-          <div class="border-course">
-            <div class="Box Course">
-                <div class="badgeC">
-                  <img src="/images/python.png" alt="" class="iconC" />
-                  <span>Curso de Python - Concluído</span>
-                </div>
-                <p class="text">Aprendizado do Curso:</p>
-                <p class="text">
-                  Python Básico | Python Avançado | Programação orientada a
-                  objetos | Interfaces Gráficas | Manipulação de Arquivos | E
-                  muito mais!
-                </p>
-                <a
-                  href="https://mais.ifmg.edu.br/maisifmg/"
-                  target="_blank"
-                  class="links email-btn"
-                  ><i class="fa-solid fa-link"></i> Link do Curso</a
-                >
-              </div>
-          </div>
-
-          <div class="border-course">
-            <div class="Box Course">
-                <div class="badgeC">
-                  <img src="/images/c-sharp.png" alt="" class="iconC" />
-                  <span>Curso C# - Em andamento</span>
-                </div>
-                <p class="text">Aprendizado do Curso:</p>
-                <p class="text">
-                  Compreensão aprofundada de C# | Escreva código C# de alto
-                  desempenho e eficiente | Princípios da programação orientada a
-                  objetos | Aprenda padrões de projeto essenciais | Código
-                  limpo, de fácil manutenção e de excelente qualidade |
-                  Prepare-se com confiança para entrevistas de emprego em C# | E
-                  muito mais!
-                </p>
-                <a
-                  href="https://www.udemy.com/course/ultimate-csharp-masterclass/"
-                  target="_blank"
-                  class="links email-btn"
-                  ><i class="fa-solid fa-link"></i> Link do Curso</a
-                >
+              <p class="text">Aprendizado do Curso:</p>
+              <p class="text">
+                Programação para jogos | Criação de movimentos em personagens |
+                Programação e animações para diferentes ações | Criação de
+                áudios para jogos | Exportação e publicação | E muito mais!
+              </p>
+              <a
+                href="https://alunos.crieseusjogos.com.br/pt-br/club/csj-digital/products/1553177?access_source=hub_home_product_card"
+                target="_blank"
+                class="btn"
+                ><i class="fa-solid fa-link"></i> Link do Curso</a
+              >
             </div>
           </div>
 
           <div class="border-course">
             <div class="Box Course">
-                <div class="badgeC">
-                  <img src="/images/programacao.png" alt="" class="iconC" />
-                  <span>Dev. Web Full Stack - Em andamento</span>
-                </div>
-                <p class="text">Aprendizado do Curso:</p>
-                <p class="text">
-                  HTML | CSS | Bootstrap | JavaScript(Básico a Avançado) |
-                  Node.js & Express.js| Database | React.js | Desenvolvendo seu
-                  próprio API |E muito mais!
-                </p>
-                <a
-                  href="https://alunos.crieseusjogos.com.br/pt-br/club/csj-digital/products/1553177?access_source=hub_home_product_card"
-                  target="_blank"
-                  class="links email-btn"
-                  ><i class="fa-solid fa-link"></i> Link do Curso</a
-                >
+              <div class="badgeC">
+                <img src="/images/python.png" alt="" class="iconC" />
+                <span>Curso de Python - Concluído</span>
+              </div>
+              <p class="text">Aprendizado do Curso:</p>
+              <p class="text">
+                Python Básico | Python Avançado | Programação orientada a
+                objetos | Interfaces Gráficas | Manipulação de Arquivos | E
+                muito mais!
+              </p>
+              <a
+                href="https://mais.ifmg.edu.br/maisifmg/"
+                target="_blank"
+                class="btn"
+                ><i class="fa-solid fa-link"></i> Link do Curso</a
+              >
+            </div>
+          </div>
+
+          <div class="border-course">
+            <div class="Box Course">
+              <div class="badgeC">
+                <img src="/images/c-sharp.png" alt="" class="iconC" />
+                <span>Curso C# - Em andamento</span>
+              </div>
+              <p class="text">Aprendizado do Curso:</p>
+              <p class="text">
+                Compreensão aprofundada de C# | Escreva código C# de alto
+                desempenho e eficiente | Princípios da programação orientada a
+                objetos | Aprenda padrões de projeto essenciais | Código limpo,
+                de fácil manutenção e de excelente qualidade | Prepare-se com
+                confiança para entrevistas de emprego em C# | E muito mais!
+              </p>
+              <a
+                href="https://www.udemy.com/course/ultimate-csharp-masterclass/"
+                target="_blank"
+                class="btn"
+                ><i class="fa-solid fa-link"></i> Link do Curso</a
+              >
+            </div>
+          </div>
+
+          <div class="border-course">
+            <div class="Box Course">
+              <div class="badgeC">
+                <img src="/images/programacao.png" alt="" class="iconC" />
+                <span>Dev. Web Full Stack - Em andamento</span>
+              </div>
+              <p class="text">Aprendizado do Curso:</p>
+              <p class="text">
+                HTML | CSS | Bootstrap | JavaScript(Básico a Avançado) | Node.js
+                & Express.js| Database | React.js | Desenvolvendo seu próprio
+                API |E muito mais!
+              </p>
+              <a
+                href="https://alunos.crieseusjogos.com.br/pt-br/club/csj-digital/products/1553177?access_source=hub_home_product_card"
+                target="_blank"
+                class="btn"
+                ><i class="fa-solid fa-link"></i> Link do Curso</a
+              >
             </div>
           </div>
         </div>
@@ -237,68 +240,90 @@
     <div>
       <section class="contato" id="contato">
         <h1 class="titles">Contato</h1>
-        <div class="pj1">
-          <div class="Box Cont">
-            <div class="topo">
-              <img src="/images/github.png" alt="" class="TImg" />
-              <span class="subtitles">GitHub</span>
-            </div>
-
-            <div class="conte">
-              <p class="text">
-                Aqui você irá encontrar alguns repositórios com algumas
-                atividades e projetos meus!
-              </p>
-              <a
-                href="https://github.com/GustavoAC0802"
-                class="links git-btn"
-                target="_blank"
-                ><i class="fa-solid fa-link"></i> Link do perfil</a
-              >
-            </div>
-          </div>
-
-          <div class="Box Cont">
-            <div class="topo">
-              <img src="/images/gmail.png" alt="" class="TImg" />
-              <span class="subtitles">Email</span>
-            </div>
-
-            <div class="conte">
-              <p class="text">
-                Você pode me enviar um email, ou enviar um formulário para
-                tratar de qualquer assunto!
-              </p>
-              <div class="Cont-BTN">
-                <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=gua7422@gmail.com&su=Assunto&body=Olá!"
-                  target="_blank"
-                  class="links email-btn"
+        <div class="contato-container-main">
+          <div class="contato-container">
+            <h1>Informações de Contato</h1>
+            <div class="contato-card">
+              <div class="icon-contato">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contato-info">
+                <p>Email</p>
+                <a href="mailto:guac7422@gmail.com" class="links"
+                  >guac7422@gmail.com</a
                 >
-                  <i class="fa-solid fa-share"></i> Enviar Email
-                </a>
+              </div>
+            </div>
+            <div class="contato-card">
+              <div class="icon-contato">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="contato-info">
+                <p>LinkedIn</p>
+                <a href="https://www.linkedin.com/in/gustavo-almeida-camargo/" class="links"
+                  >linkedin.com/in/gustavo-almeida-camargo/</a aq
+                >
+              </div>
+            </div>
+            <div class="contato-card">
+              <div class="icon-contato">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contato-info">
+                <p>GitHub</p>
+                <a href="https://github.com/GustavoAC0802" class="links"
+                  >github.com/GustavoAC0802</a
+                >
               </div>
             </div>
           </div>
+          <div class="form-container">
+            <h1>Envie uma Mensagem</h1>
+            <form action="https://formspree.io/f/mayvdgzl" method="POST" class="form">
+              <div class="input-group">
+                <div class="input-half">
+                  <label for="name">Nome</label>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Seu Nome"
+                    required
+                    class="input-field"
+                  />
+                </div>
+               <div class="input-half">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Seu Email"
+                  required
+                  class="input-field"
+                />
+              </div>
+              </div>
 
-          <div class="Box Cont">
-            <div class="topo">
-              <img src="/images/linkle.png" alt="" class="TImg" />
-              <span class="subtitles">LinkedIn</span>
-            </div>
+              <label for="subject">Assunto</label>
+              <textarea
+                name="subject"
+                rows="2"
+                placeholder="Assunto"
+                required
+                class="input-field"
+              ></textarea>
+              <label for="message">Mensagem</label>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Sua Mensagem"
+                required
+                class="input-field"
+              ></textarea>
+              <button type="submit" class="btn">
+                <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem
+              </button>
+            </form>
 
-            <div class="conte">
-              <p class="text">
-                Você encontrará um breve resumo sobre mim, minhas competências e
-                formações acadêmicas!
-              </p>
-              <a
-                href="https://www.linkedin.com/in/gustavo-almeida-camargo/"
-                target="_blank"
-                class="links linkd-btn"
-                ><i class="fa-solid fa-link"></i> Link do perfil</a
-              >
-            </div>
           </div>
         </div>
       </section>
